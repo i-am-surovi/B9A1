@@ -2,7 +2,7 @@
 .header-section{
     height: 600px;
     border: 1px solid none;
-    margin: 50px 160px;
+    margin: 50px 140px;
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Banner\ Image.png');
     border-radius: 16px;
     background-repeat: no-repeat;
@@ -72,4 +72,50 @@ main section{
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 700;    
+}
+.party{
+    height: 600px;
+    border: 1px solid none;
+    margin: 110px 140px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Vectorrr.png');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}    
+.welcome{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 600px;
+    margin-left: 130px;
+    margin-right: 298px;
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 65px;
+    font-weight: 900; 
+    letter-spacing: 7.04px;    
+}
+.description{
+    margin-left: 130px;
+    width: 800px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.join{
+    margin-left: 150px;
+    margin-top: 20px;
+    color: #FFF;
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;   
+    cursor: pointer; 
+    box-shadow: none;
 }
