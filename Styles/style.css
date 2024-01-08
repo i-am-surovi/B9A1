@@ -1,0 +1,38 @@
+/* Header Section Design */
+.header-section{
+    height: 600px;
+    border: 1px solid none;
+    margin: 50px 160px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Banner\ Image.png');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+body{
+    background: #FFFFFF;
+}
+.title{
+    margin-top: 0px;
+    margin-left: 344px;
+    margin-right: 344px;
+    margin-bottom: 177px;
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+.greet{
+    margin-top: 177px;
+    margin-left: 531px;
+    margin-right: 530px;
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+}
