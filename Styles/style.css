@@ -14,7 +14,7 @@
 body{
     background: #FFFFFF;
 }
-.title{
+.title1{
     margin-top: 0px;
     margin-left: 344px;
     margin-right: 344px;
@@ -22,7 +22,7 @@ body{
     color: #FFF;
     text-align: center;
     font-size: 72px;
-    font-weight: 700;
+    font-weight: 900;
     font-family: 'Merriweather', serif;
 }
 .greet{
@@ -34,7 +34,7 @@ body{
     color: #FFF;
     text-align: center;
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 400;
 }
 main section{
     margin-top: 100px
@@ -138,14 +138,13 @@ main section{
     margin-top: 0px;    
 }
 .btn{
-    margin-left: 580px;
+    margin-left: 600px;
     margin-top: 50px;
+    margin-bottom: 110px;
     border: 0;
     box-shadow: none;
-    display: inline-flex;
     padding: 16px 32px;
     align-items: center;
-    gap: 10px;
     cursor: pointer;
     border-radius: 8px;
     background-color: #F00; 
@@ -154,7 +153,8 @@ main section{
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    text-transform: uppercase;   
+    text-transform: uppercase;  
+    width: 168px; 
 }
 .coming-soon{
     display: flex;
@@ -288,4 +288,87 @@ main section{
     background-color: transparent;   
     cursor: pointer;
     margin-right: 160px;
+}
+.subs{
+    height: 515px;
+    display: block;
+    align-items: center;
+    border: 1px solid none;
+    margin: 110px 140px;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imo{
+    margin-left: 580px;
+    margin-right: 580px;
+}
+.title{
+    margin-left: 404px;
+    margin-right: 404px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    width: 512px;
+}
+.msg{
+    margin-left: 212px;
+    margin-right: 212px;
+    margin-bottom: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
+}
+.mail{
+    width: 648px;
+    height: 72px;
+    margin-left: 336px;
+    margin-right: 336px;
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+}
+.pp{
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    border: none;
+}
+.subscribe{
+    border: none;
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    margin-left: 438px;
+    margin-right: 336px;
+}
+.ll{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 280px;
+    margin-right: 336px;
+    padding-top: 24px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-bottom: 24px;
+    border: none;
 }
