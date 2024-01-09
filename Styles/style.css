@@ -119,3 +119,42 @@ main section{
     cursor: pointer; 
     box-shadow: none;
 }
+.date-time{
+    height: 480px;
+    display: block;
+    align-items: center;
+    border: 1px solid none;
+    margin: 110px 170px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.details{
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    margin-top: 0px;    
+}
+.btn{
+    margin: 50px 580px;
+    border: 0;
+    box-shadow: none;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00; 
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;   
+}
+
+
