@@ -37,7 +37,7 @@ body{
     font-weight: 300;
 }
 main section{
-    margin-top: 130px
+    margin-top: 100px
 }
 /* Offer Section Design */
 .offer{
@@ -84,7 +84,7 @@ main section{
     background-position: center;
     display: flex;
     align-items: center;
-}    
+}  
 .welcome{
     margin-top: 10px;
     margin-bottom: 20px;
@@ -124,7 +124,7 @@ main section{
     display: block;
     align-items: center;
     border: 1px solid none;
-    margin: 110px 170px;
+    margin: 110px 140px;
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border-radius: 16px;
     background-repeat: no-repeat;
@@ -138,17 +138,17 @@ main section{
     margin-top: 0px;    
 }
 .btn{
-    margin: 50px 580px;
+    margin-left: 580px;
+    margin-top: 50px;
     border: 0;
     box-shadow: none;
     display: inline-flex;
     padding: 16px 32px;
-    justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
     border-radius: 8px;
-    background: #F00; 
-
+    background-color: #F00; 
     color: #FFF;
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -156,5 +156,67 @@ main section{
     font-weight: 700;
     text-transform: uppercase;   
 }
-
-
+.coming-soon{
+    display: flex;
+    gap: 70px;
+    height: 460px;
+    border: 1px solid none;
+    margin: 110px 140px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+.left,.right{
+    display: block;
+}
+.image{
+    border-radius: 50%;
+    border: 15px solid #F00;
+    padding: 30px;
+}
+.left-column-title{
+    margin-top: 0px;
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.left-item-title{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.left-item-description{
+    width: 390px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.right-item-title{
+    margin-top: 100px;
+    margin-bottom: 5px;
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;   
+}
+.right-item-description{
+    width: 380px;
+    margin-top: 0px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    margin-bottom: 40px;   
+}
+.right{
+    margin-left: 20px;
+}
