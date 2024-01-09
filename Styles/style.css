@@ -220,3 +220,72 @@ main section{
 .right{
     margin-left: 20px;
 }
+/* Footer Section Design */
+.foot{
+    background-color: #070211;
+    height: 600px;
+    display: block;
+    justify-content: space-between;
+}
+.contact{
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.address{  
+    margin-top: 120px;  
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    width: 400px;
+}
+.uu{
+    display: inline;
+}
+.vv{
+    display: inline;
+}
+.num{
+    margin-right: 290px;
+    margin-top: 140px;  
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    width: 250px;  
+}
+.h{
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    height: 1px;
+}
+.icon{
+    margin-left: 650px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.copyright{
+    margin-left: 140px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+.butn{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;   
+    cursor: pointer;
+    margin-right: 160px;
+}
