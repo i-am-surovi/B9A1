@@ -73,6 +73,7 @@ main section{
     font-size: 48px;
     font-weight: 700;    
 }
+/* Welcome Section Design */
 .party{
     height: 600px;
     border: 1px solid none;
@@ -289,6 +290,7 @@ main section{
     cursor: pointer;
     margin-right: 160px;
 }
+/* Subscribe Section Design */
 .subs{
     height: 515px;
     display: block;
@@ -371,4 +373,52 @@ main section{
     padding-right: 56px;
     padding-bottom: 24px;
     border: none;
+}
+/* Awesome section design */
+.awesome{
+    height: 1080px;
+    margin: 110px 140px;
+}
+.best{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.check{
+    margin-top: 10px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
+}
+.our{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+}
+.row1{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.row2{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+/* Adding Hover Effect */
+.row1 img:hover{
+    border-radius: 16px;
+    border: 5px solid darkgoldenrod;
+}
+.row2 img:hover{
+    border-radius: 16px;
+    border: 5px solid darkgoldenrod;    
 }
