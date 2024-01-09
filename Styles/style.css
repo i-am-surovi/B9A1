@@ -41,10 +41,11 @@ main section{
 }
 /* Offer Section Design */
 .offer{
-    margin-left: 500px;
+    border: 1px solid none;
+    margin-left: 440px;
     margin-right: 609px;
     width: 803px;
-    height: 806px;
+    height: 760px;
     display: block;
     align-items: center;
 }
@@ -55,6 +56,7 @@ main section{
     font-size: 90px;
     font-weight: 700;
     margin-bottom: 15px;
+    margin-top: 0px;
 }
 .holiday{
     margin-top: 0;
@@ -421,4 +423,43 @@ main section{
 .row2 img:hover{
     border-radius: 16px;
     border: 5px solid darkgoldenrod;    
+}
+/* Discount Section design */
+.discount{
+    height: 900px;
+    margin: 110px 140px;    
+    border: 1px solid none;
+    background-image: url('../resources/Group\ 44.png'), url('../resources/Rectangle\ 1.png'), url('../resources/Group\ 74.png'), url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: 73% 50%, 96.3% 51%, 10% 70%, bottom;
+}
+.desc{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 900px;    
+    margin-bottom: 1px;
+}
+.func{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+.sale{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 10px;
 }
